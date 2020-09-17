@@ -1,0 +1,19 @@
+{
+  "name": "read_me_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrewAlvarez/Read_Me_Generator.git"
+  },
+  "author": "Andrew Alvarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrewAlvarez/Read_Me_Generator/issues"
+  },
+  "homepage": "https://github.com/DrewAlvarez/Read_Me_Generator#readme"
+}
