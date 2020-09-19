@@ -1,4 +1,8 @@
-let inquirer = require("inquirer");
+const inquirer = require("inquirer");
+const fs = require("fs");
+const util = require("util");
+
+const writeFileAsync = util.promisify(fs.writeFile);
 
 inquirer
   .prompt([
@@ -34,5 +38,21 @@ inquirer
     }
   ])
   .then(function(response) {
-    console.log(response)
+
+    async function writeReadme() {
+        try {
+          const title = `# ${response.title}`;
+          const description = `\n \n## Description\n${response.description}`;
+          const readmeToWrite = title + description
+      
+          await writeFileAsync("README.md", readmeToWrite);
+      
+          console.log(`Your README has been created`)      
+      
+        } catch(err) {
+          console.log(err)
+        }
+      }
+      
+      writeReadme();
   });
