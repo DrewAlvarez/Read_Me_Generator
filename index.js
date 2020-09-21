@@ -59,7 +59,7 @@ inquirer
         try {
           const title = `# ${response.title}`;
           const description = `\n \n## Description\n \n${response.description}`;
-          const tableOfCont = `\n \n## Table of Contents \n \n* [Installation](#Installation) \n* [Usage](#Usage) \n* [License](# License) \n* [Contributing](# Contributing) \n* [Tests](# Tests) \n* [Questions](# Questions)`;
+          const tableOfCont = `\n \n## Table of Contents \n \n* [Installation](#Installation) \n* [Usage](#Usage) \n* [License](#License) \n* [Contributing](#Contributing) \n* [Tests](#Tests) \n* [Questions](#Questions)`;
           const install = `\n \n## Installation \n \n${response.install}`;
           const usageInfo = `\n \n## Usage \n \n${response.usageInfo}`;
           const license = `\n \n## License \n \n![Badge](https://img.shields.io/badge/license-${response.license}-blue)`;
