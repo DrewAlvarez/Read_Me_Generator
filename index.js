@@ -49,7 +49,7 @@ inquirer
     {
         type: "list",
         message: "Choose the license for your project.",
-        choices: ["MIT License", "GNU AGPLv3", "GNU GPLv3", "GNU LGPLv3", "Mozilla Public License 2.0", "Boost Software License 1.0", "The Unlicense"],
+        choices: ["MIT", "GNU_AGPLv3", "GNU_GPLv3", "GNU_LGPLv3", "Mozilla_Public_License_2.0", "Boost_Software_License_1.0", "The_Unlicense"],
         name: "license"
     }
   ])

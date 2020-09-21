@@ -23,7 +23,7 @@ Follow the prompts given.
  
 ## License 
  
-![Badge](https://img.shields.io/badge/license-MIT License-blue)
+![Badge](https://img.shields.io/badge/license-MIT-blue)
  
 ## Contributing 
  
