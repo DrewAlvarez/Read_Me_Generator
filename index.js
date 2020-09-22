@@ -38,7 +38,7 @@ inquirer
     },
     {
       type: "input",
-      message: "What are your contribution guidelines",
+      message: "What are your contribution guidelines?",
       name: "contributions"
     },
     {

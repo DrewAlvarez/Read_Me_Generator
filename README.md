@@ -1,8 +1,8 @@
-# README Generator
+# Readme Generator
  
 ## Description
  
-This is an application to create a good README so that it provided a concise description of my application so as to not confuse user who are interested.
+This is an application to create a good README so that it provides a concise description for the application as to not confuse the users who are interested.
  
 ## Table of Contents 
  
@@ -15,11 +15,11 @@ This is an application to create a good README so that it provided a concise des
  
 ## Installation 
  
-If running from a terminal, such as gitbash, provided you are in the proper directory for this application, you must first install the appropriate dependencies by first typing 'npm i' then 'node index.js' to run the application.
+If running from a terminal, such as gitbash, provieded you are in the proper directory, you must first install the appropriate dependencies by first typing 'npm i' after which you can run the application by typing 'node index.js'
  
 ## Usage 
  
-Follow the prompts given.
+Follow the prompts as given.
  
 ## License 
  
@@ -27,7 +27,7 @@ Follow the prompts given.
  
 ## Contributing 
  
-None
+none
  
 ## Tests 
  
