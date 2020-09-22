@@ -21,6 +21,7 @@ If running from a terminal, such as gitbash, provieded you are in the proper dir
  
 Follow the prompts as given.
 [Link to Howto Video](https://drive.google.com/file/d/1ljUFid7rQ135wdP9lMVUER16QfdTABOO/view)
+![Screenshot](./screenshots/readmeGenScreenShot.png)
  
 ## License 
  
